@@ -9,3 +9,8 @@ typechain-types
 cache
 artifacts
 
+# ZK
+zk/ptau
+zk/zkey
+zk/createAnswer*
+zk/checkAnswer*

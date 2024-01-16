@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "ptau": "sh ./scripts/zk/ptau.sh",
+    "setup": "sh ./scripts/zk/setup.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,8 +17,10 @@
     "@types/mocha": "^10.0.6",
     "@types/node": "^20.10.7",
     "chai": "^4.3.10",
+    "circomlib": "^2.0.5",
     "dotenv": "^16.3.1",
     "hardhat": "^2.19.4",
+    "snarkjs": "^0.7.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
