@@ -2,6 +2,8 @@ pragma circom 2.1.6;
 
 include "../../node_modules/circomlib/circuits/poseidon.circom";
 
+// FIXME: realAnswer, expectedAnswer
+// FIXME: publicNonce, privateNonce
 template CheckAnswer() {
   signal input nonce;
   signal input answer;
